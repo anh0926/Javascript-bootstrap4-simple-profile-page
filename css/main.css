@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* GLOBAL STYLE HTML */
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+   }
+
+/* HOME PAGE */
+.navbar{ background:#22b1f3;}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+/*header style*/
+.header{
+    background-image: url('../images/debby-hudson-oJi26EWFqCo-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center
+    
+   }
+.overlay{
+position: absolute;
+min-height: 100%;
+min-width: 100%;
+left: 0;
+top: 0;
+background: rgba(244, 244, 244,0.5);
+}   
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: 0;
+    padding: 2em;
+    opacity: 1.0    
+
+     
+}
+.description h1{
+ color:#22b1f3 ;
+}
+.description p{
+ color:rgb(20, 20, 20);
+ font-size: 20px;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #22b1f3;
+ background: #22b1f3;
+ color:#fff;
+}
+.description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+/* ABOUT PAGE */
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+   }
+   .about h1{
+    color:#22b1f3;
+    margin: 2em;
+    text-align: center;
+   }
+   .about img{
+    height: 100%;
+       width: 100%;
+       border-radius: 50%
+   }
+   .about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+   }
+   .about .desc{
+    padding: 2em;
+    border-left:4px solid #10828C;
+   }
+   .about .desc h3{
+    color: #10828C;
+   }
+   .about .desc p{
+    line-height:2;
+    color:#888;
+   }
+
+   /* CONTACT PAGE */
+   .contact-form{
+    margin: 6em 0;
+    position: relative;  
+   }
+   
+   .contact-form h1{
+    padding:2em 1px;
+    color: #22b1f3; 
+   }
+   .contact-form .right{
+    max-width: 600px;
+   }
+   .contact-form .right .btn-secondary{
+    background: #22b1f3;
+    color: #fff;
+    border:0;
+   }
+   .contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+   }
+
+   /* MODAL SECTION */
+   #demo-modal .modal-content {
+    border-radius: 0;
+    padding: 2rem;
+}
+
+#demo-modal .modal-header{
+    border-bottom: none;
+}
+
+#demo-modal .modal-header img {
+    width: 10%
+}
+
+#demo-modal h4 {
+    color: #000;
+    font-size: 30px;
+    margin: 0 0 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#demo-modal .close {
+    background: #c0c3c8;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 19px;
+    font-weight: normal;
+    height: 30px;
+    opacity: 0.5;
+    padding: 0;
+    position: absolute;
+    right: 26px;
+    text-align: center;
+    top: 26px;
+    width: 30px;
+}
+
+#demo-modal .close span {
+    position: relative;
+    top: -3px;
+}
+
+#demo-modal .modal-body p {
+    color: #999;
+}
+
+#demo-modal .form-control,
+#demo-modal .btn {
+    min-height: 46px;
+}
+
+#demo-modal .btn {
+    background-color: #1da098;
+    border: none;
+    color: #fff;
+    min-width: 150px;
+    transition: all 0.4s;
+}
+
+#demo-modal .btn:hover,
+#demo-modal .btn:focus {
+    background-color: #12968d;
+}
